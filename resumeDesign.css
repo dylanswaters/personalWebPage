@@ -1,0 +1,167 @@
+body{
+	background-color: forestgreen;
+}
+
+#column1 {
+	float: left;
+	width: 400px;
+}
+
+#column2{
+	float: left;
+	width: 50%;
+}
+
+a.buttons{
+	width: 350px;
+	display: block;
+	font-size: 36px;
+	background-color: #F87217;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+p.box{
+	font-size: 24px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+}
+
+h2{
+	text-align: left;
+	color: darkblue;
+}
+
+table{
+	border: 2px dashed blue;
+	background-color: white;
+	text-align: center;
+}
+
+td{
+	border: 2px solid blue;
+}
+
+ol{
+	border: 2px groove red;
+	background-color: white;
+}
+
+ul{
+	border: 2px groove red;
+	background-color: white;
+	list-style-type: square;
+}
+
+blockquote{
+	width: 150px;
+	border:3px solid lightblue;
+
+}
+
+@media screen and (max-width: 1280px) and (min-width: 851px){
+	#column1{
+		width: 200px;
+	}
+
+	a.buttons{
+		width: 150px;
+		display: block;
+		font-size: 18px;
+		background-color: #F87217;
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+	}
+
+	p.box{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 850px) and (min-width: 480px){
+	#column1{
+		width: 140px;
+	}
+
+	a.buttons{
+		width: 130px;
+		display: block;
+		font-size: 16px;
+		background-color: #F87217;
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+	}
+
+	p.box{
+		font-size: 12px;
+	}
+
+	ul{
+		font-size: 12px;
+	}
+
+	#dogimage{
+		width: 98%;
+	}
+}
+
+@media screen and (max-width: 479px) and (min-width: 0px){
+	body{
+		font-size: 24px;
+	}
+
+	h2{
+		font-size: 16px;
+	}
+
+	#column1{
+		width: 30%;
+	}
+
+	#column2{
+		float: left;
+		width: 70%;
+	}
+
+	a.buttons{
+		width: 100px;
+		display: block;
+		font-size: 12px;
+		background-color: #F87217;
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+	}
+
+	p.box{
+		font-size: 12px;
+	}
+
+	table{
+		font-size: 12px;
+	}
+
+	ul{
+		font-size: 12px;
+	}
+
+	ol{
+		font-size: 14px;
+	}
+
+	#dogimage{
+		width: 90%;
+	}
+
+	img{
+		width: 300px;
+	}
+
+	blockquote{
+		font-size: 14px;
+	}
+}
